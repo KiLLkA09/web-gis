@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+
+#map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Занимает всю высоту экрана */
+}
+
+#map {
+    width: 80vw; /* Занимает 80% ширины экрана */
+    height: 80vh; /* Занимает 80% высоты экрана */
+    border: 1px solid #ccc;
+}
+
+/* Стили для popup */
+#popup {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    min-width: 200px; /* Минимальная ширина popup */
+}
